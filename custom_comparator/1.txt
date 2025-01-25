@@ -1,0 +1,4 @@
+ //////////// Find minimum element/////////
+ 
+    auto minIt = min_element(nums.begin(), nums.end());
+    int minIndex = distance(nums.begin(), minIt);
